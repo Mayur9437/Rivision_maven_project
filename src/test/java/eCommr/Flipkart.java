@@ -9,7 +9,7 @@ public class Flipkart {
   public void Flipkart_Test() 
   {
 	  WebDriver driver = new ChromeDriver();
-	  driver.get("https://www.amazon.in/");
+	  driver.get("https://www.flipkart.com/");
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
 	  driver.close();
